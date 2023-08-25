@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.card {
+  width: 20rem;
+  border: 0.01rem solid rgb(199, 199, 199);
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.card > p {
+  text-align: justify;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
